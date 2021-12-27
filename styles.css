@@ -25,25 +25,25 @@ main {
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
   height: 70%;
   width: 65%;
-  padding: 25px;
+  padding: 15px 25px 15px 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 img {
-  height: 275px;
+  height: 250px;
 }
 
 p {
   padding: 0;
   margin: 0;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 100;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 41px;
   font-weight: 700;
   margin: 0 0 15px 0;
   padding: 0;
@@ -69,7 +69,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 18px;
+  padding-bottom: 10px;
 }
 
 .receipt-main {
@@ -82,7 +82,7 @@ h2 {
 }
 
 .text-main {
-  height: 275px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -94,7 +94,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 18px;
+  margin-top: 10px;
 }
 
 .wrapper-footer {
@@ -102,7 +102,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding-top: 20px; */
 }
 
 .wrapper-img {
@@ -113,7 +112,7 @@ h2 {
 }
 
 .border {
-   border-bottom: 1px dashed gray;
+   border-bottom: 2px dashed gray;
 }
 
 .wrapper-num {
@@ -125,7 +124,7 @@ h2 {
   align-items: center;
   margin: 5px;
   border-radius: 50%;
-  border: 2px solid #74b9ff
+  border: 3px solid #74b9ff
 }
 
 .footer-1{
