@@ -2,44 +2,54 @@
 <html>
   <head>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
     <title>Receipt</title>
   </head>
   <body>
     <main>
-      <section class="receipt-header">
-        <div class="wrapper-header-order">
+      <section class="border receipt-header">
+        <div class="flex-column">
           <p>Order Id: 12098097124</p>
           <p>Placed On: 11/12/2021</p>
         </div>
-        <div class="wrapper-header-details">
-          <h2>ViewDetails</h2>
-        </div>
+        <!-- <div class="wrapper-header-details"> -->
+        <h2>View Details</h2>
+        <!-- </div> -->
       </section>
-      <section class="receipt-main">
-        <div class="wrapper-main-text">
+      <section class="border receipt-main">
+        <div class="text-main">
           <h1>Smart Desk</h1>
           <p>Quantity: 1</p>
           <p>Design: 53" x 29" Classic</p>
           <p>Top: White Matte</p>
           <p>Frame: White</p>
-          <p>>Price: $499</p>
+          <p>Price: $499</p>
         </div>
-        <div class="wrapper-main-img">
-          <img>
+        <div class="wrapper-img">
+          <img src="./images/thestandingdesk.jpg" alt="standing desk">
         </div>
       </section>
       <section class="receipt-footer">
         <div class="wrapper-footer">
-          <section class="footer-1">1</section>
+          <div class="wrapper-num footer-1">
+            <p>1</p>
+          </div>
           <p>Placed</p>
         </div>
-        <div class="wrapper-footer">
-          <section class="footer-2">2</section>
-          <p>Placed</p>
+        <div class="wrapper-footer flex-column">
+          <div class="wrapper-num footer-2">
+            <p>2</p>
+          </div>
+          <p>Shipped</p>
         </div>
-        <div class="wrapper-footer">
-          <section class="footer-3">3</section>
-          <p>Placed</p>
+        <div class="wrapper-footer flex-column">
+          <div class="wrapper-num footer-3">
+            <p>3</p>
+          </div>
+          <p>Delivered</p>
         </div>
       </section>
     </main>
