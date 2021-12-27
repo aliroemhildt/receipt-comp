@@ -1,6 +1,32 @@
-/*   
+/*
   font-family: 'Roboto', sans-serif;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
   lighter blue: #74b9ff
   darker blue: #0984e3
 */
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #74b9ff;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: white;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+  height: 80%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
