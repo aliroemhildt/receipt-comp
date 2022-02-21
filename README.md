@@ -1,12 +1,20 @@
-# Instructions
+# Static Comp Challenge
 
-- Fork and clone this repo 
-- Write HTML and CSS to match the following comp
-- Colors, font, and image are provided for you!
+## Overview
+
+This was a static comp challenge provided by Turing School of Software & Design. Provided a comp and starter repo (with colors, font, and image), I wrote the CSS and HTML required to match the comp. 
+
+## Provided Comp
 
 ![receipt comp](https://github.com/turingschool-examples/receipt-comp/blob/main/images/comp.png)
 
-## Bonus Ideas
-- Can you make the receipt flip to display some additional information on the back? HINT: You'll need to look at CSS animation and backface visibility. 
-- Use CSS keyframe animations to animate in the 1, 2, 3 bubble fill. 
-- Create an "image carousel" to cycle through a series of images instead of just the one person using the desk. You'll need to add more images to your repo for this, and visually indicate to a user that there are more than one image. Here are some visual examples of [image carousels](https://colorlib.com/wp/bootstrap-4-carousel/). Hint: This is something you could code out yourself, or maybe find an NPM package for!
+## My Version
+
+<img width="1438" alt="Screen Shot 2022-02-20 at 9 00 43 PM" src="https://user-images.githubusercontent.com/90285501/154887014-64b713bb-f7bf-4f7d-b128-2a1fe54897d6.png">
+
+## Author
+
+Ali Roemhildt
+
+## Sources 
+[Starter Repo and Comp](https://github.com/turingschool-examples/receipt-comp)
